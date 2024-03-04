@@ -91,6 +91,22 @@ address {
     margin: 0 auto;
 }
 
+.main_btn {
+    width: 100%;
+    height: 86px;
+    color: rgb(39, 40, 44);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    text-transform: uppercase;
+    @include flex-full-center();
+    gap: 20px;
+    border-radius: 23.5px;
+    box-shadow: 0px 0px 2px 3px rgb(253, 255, 166);
+    background: rgb(242, 201, 76);
+}
+
 // main
 main {
     background: rgb(69, 107, 89);
@@ -131,21 +147,8 @@ main {
         margin-bottom: 27px;
     }
 
-    button {
+    .main_btn {
         margin-bottom: 16px;
-        width: 100%;
-        height: 86px;
-        color: rgb(39, 40, 44);
-        font-size: 20px;
-        font-weight: 700;
-        line-height: 24px;
-        text-align: left;
-        text-transform: uppercase;
-        @include flex-full-center();
-        gap: 20px;
-        border-radius: 23.5px;
-        box-shadow: 0px 0px 2px 3px rgb(253, 255, 166);
-        background: rgb(242, 201, 76);
     }
 
     .two_title {
@@ -221,7 +224,7 @@ main {
 
         .course_under_main_icon {
             position: absolute;
-            right: 24px;
+            right: 0;
             bottom: -18px;
             width: 120px;
         }
@@ -230,10 +233,6 @@ main {
             position: absolute;
             left: 0;
             top: -53px;
-        }
-
-        .course_under_main_img {
-  
         }
     }
 
@@ -252,3 +251,81 @@ main {
     }
 }
 // course_under
+
+// advantages_course
+.advantages_course {
+    padding: 32px 0;
+
+    h6 {
+        color: rgb(69, 107, 89);
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 37px;
+        margin-bottom: 21px;
+    }
+
+    p {
+        color: rgb(69, 107, 89);
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+        margin-bottom: 27px;
+    }
+
+    .advantages_course_cards {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .advantages_course_card {
+        padding: 30px 17px 27px 17px;
+        max-width: 336px;
+        margin: 0 auto;
+        text-align: center;
+        border: 1px solid rgb(212, 203, 194);
+        border-radius: 10px;
+        background: rgb(69, 107, 89);
+
+        img {
+            margin-bottom: 23px;
+        }
+
+        h5 {
+            margin-bottom: 23px;
+            color: rgb(242, 201, 76);
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 24px;
+        }
+
+        p {
+            color: rgb(242, 201, 76);
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 25px;
+            letter-spacing: 0%;
+            text-transform: uppercase;
+            margin-bottom: 0;
+        }
+    }
+
+    .coral {
+        border: 1px solid rgb(212, 203, 194);
+        background: rgb(200, 178, 154);
+
+        h5 {
+            color: rgb(69, 107, 89);
+        }
+
+        p {
+            color: rgb(69, 107, 89);
+        }
+    }
+
+    .advantages_course_main_img {
+        text-align: center;
+        margin: 40px auto 28px auto;
+    }
+}
+// advantages_course
