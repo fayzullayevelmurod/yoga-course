@@ -258,4 +258,121 @@ main .home_img {
 .advantages_course .advantages_course_main_img {
   text-align: center;
   margin: 40px auto 28px auto;
+}
+
+.author {
+  padding-bottom: 34px;
+}
+.author h6 {
+  color: rgb(69, 107, 89);
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 37px;
+  margin-bottom: 7px;
+}
+.author p {
+  margin-top: 25px;
+  color: rgb(69, 107, 89);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.author .author_title {
+  margin-bottom: 7px;
+}
+.author .author_card img {
+  display: block;
+  margin: 0 auto 35px auto;
+}
+.author .author_card p {
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+.author .author_text_right {
+  margin: 28px 0;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: right;
+  text-transform: uppercase;
+}
+.author .author_card_img {
+  text-align: center;
+  position: relative;
+}
+.author .author_card_img .author_icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 87px;
+}
+.author .author_card_two p {
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+
+.course_program h6 {
+  color: rgb(69, 107, 89);
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 37px;
+  margin-bottom: 30px;
+}
+.course_program .course_program_bottom p {
+  padding: 36px 0 28px 0;
+  color: rgb(69, 107, 89);
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+.course_program .course_program_cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.course_program .course_program_card {
+  padding: 6px 16px;
+  border: 1px solid rgb(212, 203, 194);
+  border-radius: 10px;
+  background: rgb(69, 107, 89);
+}
+.course_program .course_program_card h5 {
+  color: rgb(242, 201, 76);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+.course_program .course_program_card .course_program_card_in {
+  display: flex;
+  align-items: start;
+  gap: 15px;
+}
+.course_program .course_program_card .course_program_card_left img {
+  min-width: 164px;
+}
+.course_program .course_program_card .course_program_card_left h4 {
+  text-align: center;
+  margin-top: 5px;
+  color: rgb(242, 201, 76);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+.course_program .course_program_card .course_program_card_right p {
+  color: rgb(242, 201, 76);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
 }/*# sourceMappingURL=style.css.map */
