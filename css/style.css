@@ -62,6 +62,9 @@ address {
 main {
   background: rgb(69, 107, 89);
 }
+main header {
+  padding-top: 15px;
+}
 main h6 {
   color: rgb(242, 201, 76);
   font-size: 19px;
