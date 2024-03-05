@@ -112,7 +112,14 @@ main .main_btn {
   margin-bottom: 16px;
 }
 main .two_title {
+  transform: translateY(5px);
   text-align: center;
+  color: rgb(242, 201, 76) !important;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+  margin-bottom: 0;
 }
 main del {
   display: block;
@@ -180,7 +187,7 @@ main .home_img {
 .course_under .course_under_img .course_position_icon {
   position: absolute;
   left: 0;
-  top: -53px;
+  top: -51px;
 }
 .course_under .course_text {
   margin-top: 15px;
@@ -388,6 +395,11 @@ main .home_img {
   line-height: 37px;
   margin-bottom: 25px;
 }
+.pass_well .pass_well_cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 .pass_well .pass_well_card img {
   display: block;
   margin: 0 auto;
@@ -411,7 +423,6 @@ main .home_img {
 
 .vidguki {
   padding: 35px 0 45px 0;
-  border: 1px solid rgb(212, 203, 194);
   background: rgb(69, 107, 89);
 }
 .vidguki h6 {
@@ -444,6 +455,8 @@ main .home_img {
   right: 0;
 }
 .powered h6 {
+  position: relative;
+  z-index: 2;
   color: rgb(69, 107, 89);
   font-size: 30px;
   font-weight: 800;
@@ -451,6 +464,8 @@ main .home_img {
   margin-bottom: 20px;
 }
 .powered .powered_cards {
+  position: relative;
+  z-index: 2;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -472,7 +487,6 @@ main .home_img {
 
 .tired {
   padding: 35px 0;
-  border: 1px solid rgb(212, 203, 194);
   background: rgb(69, 107, 89);
 }
 .tired h6 {
@@ -587,7 +601,7 @@ main .home_img {
   color: rgb(69, 107, 89);
   font-size: 30px;
   font-weight: 700;
-  line-height: 50px;
+  line-height: 16px;
   text-transform: uppercase;
 }
 .yogo_bottom .yogo_bottom_in del {

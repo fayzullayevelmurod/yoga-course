@@ -152,7 +152,14 @@ main {
     }
 
     .two_title {
+        transform: translateY(5px);
         text-align: center;
+        color: rgb(242, 201, 76) !important;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 30px;
+        text-transform: uppercase;
+        margin-bottom: 0;
     }
 
     del {
@@ -232,7 +239,7 @@ main {
         .course_position_icon {
             position: absolute;
             left: 0;
-            top: -53px;
+            top: -51px;
         }
     }
 
@@ -494,6 +501,12 @@ main {
         margin-bottom: 25px;
     }
 
+    .pass_well_cards {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
     .pass_well_card {
         img {
             display: block;
@@ -523,7 +536,6 @@ main {
 // vidguki
 .vidguki {
     padding: 35px 0 45px 0;
-    border: 1px solid rgb(212, 203, 194);
     background: rgb(69, 107, 89);
 
     h6 {
@@ -563,6 +575,8 @@ main {
     }
 
     h6 {
+        position: relative;
+        z-index: 2;
         color: rgb(69, 107, 89);
         font-size: 30px;
         font-weight: 800;
@@ -571,6 +585,8 @@ main {
     }
 
     .powered_cards {
+        position: relative;
+        z-index: 2;
         display: flex;
         flex-direction: column;
         gap: 20px;
@@ -599,7 +615,6 @@ main {
 // tired
 .tired {
     padding: 35px 0;
-    border: 1px solid rgb(212, 203, 194);
     background: rgb(69, 107, 89);
 
     h6 {
@@ -733,7 +748,7 @@ main {
             color: rgb(69, 107, 89);
             font-size: 30px;
             font-weight: 700;
-            line-height: 50px;
+            line-height: 16px;
             text-transform: uppercase;
         }
 
