@@ -425,4 +425,129 @@ main .home_img {
   display: flex;
   flex-direction: column;
   gap: 30px;
+}
+
+.powered {
+  padding: 35px 0;
+}
+.powered .main_container {
+  position: relative;
+}
+.powered .powered_icon_top {
+  position: absolute;
+  top: -36px;
+  right: -65px;
+}
+.powered .powered_icon_center {
+  position: absolute;
+  top: 520px;
+  right: 0;
+}
+.powered h6 {
+  color: rgb(69, 107, 89);
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 37px;
+  margin-bottom: 20px;
+}
+.powered .powered_cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.powered .powered_card h6 {
+  color: rgb(69, 107, 89);
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 21px;
+}
+.powered .powered_card p {
+  margin-top: 12px;
+  color: rgb(69, 107, 89);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.tired {
+  padding: 35px 0;
+  border: 1px solid rgb(212, 203, 194);
+  background: rgb(69, 107, 89);
+}
+.tired h6 {
+  color: rgb(242, 201, 76);
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 37px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.tired ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 25px;
+}
+.tired ul li {
+  list-style-type: disc;
+  list-style-position: inside;
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 21px;
+}
+.tired p {
+  color: rgb(242, 201, 76);
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 21px;
+  margin-bottom: 23px;
+}
+.tired p span {
+  display: block;
+  margin-bottom: 20px;
+}
+.tired .tired_cards {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.tired .tired_cards h6 {
+  margin-bottom: 0;
+}
+.tired .tired_cards del {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 50px;
+  text-decoration-line: line-through;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.tired .tired_cards h5 {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+.warranty {
+  padding: 35px 0;
+}
+.warranty h6 {
+  color: rgb(69, 107, 89);
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 37px;
+}
+.warranty p {
+  margin-top: 20px;
+  color: rgb(69, 107, 89);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+  text-transform: uppercase;
 }/*# sourceMappingURL=style.css.map */
