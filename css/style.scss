@@ -788,3 +788,35 @@ footer {
     }
 }
 // footer
+
+
+// policy
+.policy {
+    background: rgb(69, 107, 89);
+    padding: 30px 0;
+    h6 {
+        background: linear-gradient(90.00deg, rgb(242, 201, 76),rgb(163, 177, 138));
+        -webkit-background-clip:
+        text;
+        -webkit-text-fill-color:
+        transparent;
+        background-clip:
+        text;
+        text-fill-color:
+        transparent;
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 37px;
+        margin-bottom: 30px;
+    }
+
+    p {
+        color: rgb(242, 201, 76);
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 25px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+}
+// policy
